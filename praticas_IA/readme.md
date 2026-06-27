@@ -1,0 +1,1 @@
+# Essa tem como objetivo fazer questões extras além do que foi aprendindo no curso, com a ideia de exercitar tudo oq foi aprendd

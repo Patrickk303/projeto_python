@@ -7,17 +7,20 @@ Bem-vindo! Para escolher sua agua é só digitar um número
 """
 print(texto)
 opcao = input("Escolha uma garrafa de água : ")
-quatidade = int(input("Quantas garrfas você quer? "))
- = 0
+valor_item = 0
 if opcao == "1" :
-    conta = 1.50
+    valor_item = 1.50
 elif opcao == "2" :
-    conta = 2.50
-
-total = conta * quatidade
+    valor_item = 2.50
 
 
-if conta == 0:
+if valor_item == 0:
     print("Pedido recursado!Número errado!")
+
 else :
-    print("Pedido feito! Pague R$", total)
+    qtde = input("quantas garrfas? ")
+    qtde = int(qtde)
+
+    total = valor_item * qtde
+
+    print("total a pagar : ", total)
