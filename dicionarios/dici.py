@@ -26,5 +26,19 @@ print(dados_pk)
 
 
 #%%
-
+print(dados_pk)
 dados_pk["Formação"][-1]
+dados_pk["Cargos"][-1]["empresa"]
+#%%
+
+dados_pk["estado civil"] = "casado"
+
+#%%
+
+print(dados_pk)
+
+#%%
+
+print("chaves", dados_pk.keys())
+print("Valores", dados_pk.values())
+print("itens", dados_pk.items())
