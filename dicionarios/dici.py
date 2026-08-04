@@ -46,4 +46,4 @@ print("itens", dados_pk.items())
 #%%
 
 for chaves, valor in dados_pk.items() :
-    print(chave, )
+    print(chaves, valor)
