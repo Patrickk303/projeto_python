@@ -17,8 +17,7 @@ while True :
         break
     elif notas > 5 :
         print("só pode um valor de 0 a 5")
-    else :
-        print("digite um valor valido")
+
     
 print("""
         Qual veiculo vc usou?
@@ -53,10 +52,10 @@ if veiculos == "bike":
 valor_entregas = (valor_base_entregas * entregas) + bonus_bike
 
 if notas < 3 :
-    qualidade = 0.10
+    qualidade = valor_entregas * 0.10
     total_final = valor_entregas - qualidade
 elif notas == 5 :
-    qualidade = 0.20
+    qualidade = valor_entregas * 0.20
     total_final = valor_entregas + qualidade
 else :
     qualidade = 0
