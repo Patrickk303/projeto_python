@@ -1,13 +1,13 @@
 #%%
 
-def agrupar_horas (api_serlares):
+def agrupar_horas (api_horas):
     """
-    em api_serlares se deve ser um dicionario da api da empresa. a api
+    em api_horas se deve ser um dicionario da api da empresa. a api
     puxa os dados da chave registro e faz a descompactação e puxar os
     projetos e suas horas
     """
     total_horas_projeto = {}
-    for agrupar_horas in api_serlares["registros"] :
+    for agrupar_horas in api_horas["registros"] :
         setor = agrupar_horas['projeto']
         qtde_h = agrupar_horas['horas']
         if setor in total_horas_projeto :
