@@ -1,6 +1,4 @@
 
-
-
 senha = "Brasil123"
 contador = 0
 limite = 3
