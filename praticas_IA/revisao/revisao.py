@@ -35,3 +35,47 @@ print(f"longitudade : {longitude}")
 for i in range(21) :
     if i % 2 == 0 :
         print(i)
+
+
+
+# exercício 5
+
+#%%
+frutas = ["banana","maça","uva","mamão","pera"]
+
+print(frutas)
+
+#%%
+frutas.append("tomate")
+
+print(frutas)
+
+#%%
+
+del frutas[1]
+
+print(frutas)
+
+#%%
+for i in frutas :
+    print(i.upper())
+
+
+
+
+# exercico 6
+
+#%%
+
+produto = {
+    "nome" : "Mercedez f1 w11",
+    "preço" : "150",
+    "estoque" : 79
+}
+
+produto["preço"] = 130
+produto["categoria"] = "miniatura"
+
+print(f"super promoção do {produto['nome']}\n saindo pela bagatela de {produto['preço']}")
+
+
