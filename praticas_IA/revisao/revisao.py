@@ -79,3 +79,35 @@ produto["categoria"] = "miniatura"
 print(f"super promoção do {produto['nome']}\n saindo pela bagatela de {produto['preço']}")
 
 
+
+
+
+
+
+#%%
+# exercicio 7
+
+lista_vendas = [
+    {"item": "Teclado", "valor": 150.0},
+    {"item": "Mouse", "valor": 80.0},
+    {"item": "Monitor", "valor": 900.0}
+]
+
+def analisar_vendas(lista_vendas) :
+    total_vendas = 0
+    item_mais_caro = ""
+    maior_valor = 0
+
+    for vendas in lista_vendas :
+        nome_item = vendas["item"]
+        valor_item = vendas["valor"]
+        total_vendas += valor_item
+
+        if valor_item > maior_valor :
+                maior_valor = vendas["valor"]
+                item_mais_caro = nome_item
+
+    return item_mais_caro, total_vendas
+
+
+analisar_vendas(lista_vendas)
