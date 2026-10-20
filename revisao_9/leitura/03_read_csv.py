@@ -3,9 +3,7 @@
 
 #%%
 
-
 arquivo = "data.csv"
-
 with open(arquivo) as open_file :
     lines = open_file.readlines()
 
@@ -18,6 +16,7 @@ chaves = lines[0].strip("\n").split(";")
 
 for c in chaves :
     dados[c] = []
+
 
 #%%
 

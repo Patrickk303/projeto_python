@@ -1,0 +1,17 @@
+
+==================================================
+         RELATÓRIO FINAL DO TORNEIO 
+==================================================
+
+O torneio foi um sucesso! Tivemos a participação de
+um total de 5 jogadores que disputaram cada ponto.
+
+Ao final de todas as rodadas, a média de pontos
+alcançada pelos competidores foi de 7.6 pontos.
+
+O grande destaque do evento foi a pontuação máxima
+atingida, onde o topo do ranking cravou 9.0 pontos!
+
+Numero de vezes que cada categoria aparece Counter({'Absoluto': 3, 'Feminino': 2})
+
+==================================================
