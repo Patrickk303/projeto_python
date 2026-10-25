@@ -1,0 +1,16 @@
+vendedor;produto;quantidade;preco_unitario;status
+Ana;Notebook;2;3500.00;concluida
+Bruno;Mouse;10;80.00;concluida
+Carla;Teclado;5;150.00;cancelada
+Ana;Monitor;3;1200.00;concluida
+Diego;Cadeira;1;900.00;concluida
+Bruno;Teclado;4;150.00;concluida
+Carla;Notebook;1;3500.00;concluida
+Diego;Mouse;6;80.00;cancelada
+Ana;Cadeira;2;900.00;concluida
+Bruno;Monitor;2;1200.00;concluida
+Carla;Mouse;8;80.00;concluida
+Diego;Notebook;1;3500.00;cancelada
+Bruno;Cadeira;3;900.00;concluida
+Carla;Monitor;1;1200.00;concluida
+Diego;Teclado;3;150.00;concluida

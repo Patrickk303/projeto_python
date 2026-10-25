@@ -1,7 +1,7 @@
-
+import random
 
 contagem = 0
-num = 7
+num = random.randint(1,15)
 
 def vali_input():
     while True :
